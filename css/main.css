@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import url("../webfonts/SIMYOU/stylesheet.css");
+
+body {
+	font-family: Arial, Helvetica, sans-serif， SIMYOU, sans-serif,serif;
+}
+.carousel-control {
+	background-image: none !important;
+}
+.btn.btn-primary {
+	background-color: transparent;
+	border-color: rgba(255,30,30,1.00);
+}
+.img-circle {
+	width: 40px;
+	height: 40px;
+}
+h3 {
+	display: none;
+}
+
+a {
+	color: black;
+}
+.btn.btn-primary {
+	color: rgba(255,51,51,0.93) !important;
+}
+/*.media-body {
+	display: none !important;
+}*/
+.media-object {
+	width: 100%;
+}
+.container .row .col-xs-6.col-sm-4.col-md-4.col-lg-2 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.cart-img a img {
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+
+@media screen and  (min-width:350px) and (max-width:750px){
+
+.container .row.text-center .col-sm-4.col-md-4.col-lg-4.col-xs-6 {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.row .col-lg-6.col-sm-9.col-xs-9.col-md-9 h4 {
+	font-size: 0.5em;
+}
+.col-sm-4.col-md-4.col-lg-4.col-xs-6 .thumbnail .caption {
+	padding: 2px;
+}
+.col-xs-6.col-sm-4.col-md-4.col-lg-2 .media-object-default  {
+	margin-left: 3px;
+}
+.media-object-default .media .media-left {
+	padding-right: 0px !important;
+}
+
+body hr {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+}
